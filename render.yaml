@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: redflag-mcp-test-target
+    runtime: docker
+    plan: free
+    envVars:
+      - key: EXCEL_MCP_AUTH_TOKEN
+        sync: false

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+workbooks/*.xlsx
+workbooks/*.xlsm
+!workbooks/.gitkeep
